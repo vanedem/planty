@@ -1,0 +1,120 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.6.0.1704367144
+Updated: 2024-01-04 11:19:04
+*/
+
+/* Tout le site */
+body {
+    background-color: #ffffff !important;
+    font-family: Syne;
+}
+
+/* Toutes pages logo header */
+#logo-nav {
+    width: 201px;
+    height: 19px;
+}
+
+/* Toutes pages bouton COMMANDER header */
+#btn-commander-nav {
+    width: 100%;
+    float: right;
+    height: 80px;
+    margin-right: -10px;
+}
+
+.img-fruits {
+    width: 393px;
+    height: 262px;
+}
+
+/* Page NOUS RENCOONTRER bouton COMMANDER */
+#btn-commander {
+    height: 55px;
+    width: 198px;
+}
+
+/* Page COMMANDER placeholder blanc */
+.placeholder-commande {
+    width: 50px !important;
+    height: 56px;
+    border-radius: 0;
+    border: none;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Page COMMANDER Formulaire */
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.form-container-left, .form-container-right {
+    width: 50%;
+}
+
+.form-container-left .form-container-right h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+}
+
+input {
+    width: 383px;
+    height: 71px;
+    border-radius: 7px;
+    border: #fff;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.line-vertical hr {
+    height: 377px;
+    color: #fff;
+    width: 1px;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+}
+
+/* Responsive TABLETTE */
+@media only screen and (min-width: 792px) and (max-width: 1024px) {  
+}
+
+/* Responsive MOBILE */
+@media only screen and (min-width: 320px) and (max-width: 791px) {
+    .e-con-inner {
+        flex-direction: column;
+    }
+    .container {
+        display: block;
+    }
+    .form-container-left, .form-container-right {
+        width: 100%;
+    }
+    .line-vertical hr {
+        display: none;
+    }
+}
